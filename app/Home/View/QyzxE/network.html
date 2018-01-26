@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<link rel="stylesheet" href="__HCSS__/swiper.min.css">
+		<link rel="stylesheet" type="text/css" href="__HCSS__/css.css"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+		<script src="__HJS__/jquery-1.8.3.min.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<include file="PublicE:head" />
+		<div class="ny_banner">
+			<img src="__PUBLIC__/upload/{$banner.banner_img}"/>
+		</div>
+		<div class="ny_con">
+			<div class="cpny_bthd">
+				<span>VENEER </span>
+			</div>
+			<div class="ny_c">
+				<div class="ny_c_h">
+					<span>VENEER </span><i>/ Veneer</i>
+				</div>
+				<div class="ny_c_c">
+					&emsp;&emsp;Shenzhen Meiming Dental Equipment Co. Ltd is a leading supplier of denture, focusing on the ciya field, adhere to sound management and continuous innovation, openness and cooperation, providing high-quality teeth and cost-effective solution for outpatient. Established in 2005, the company is headquartered in Shenzhen and has set up branch offices in Shandong, Shanxi, Inner Mongolia, Hunan, Sichuan, Shaanxi and Shenzhen. At present, the company has grown into the largest high-end denture manufacturer in the north and is equipped with an international denture processing equipment. The company has a number of high-end denture brands, including "beauty Ming" and "Luo poetry" has been a well-known brand in the industry. Advanced and sophisticated marketing model has achieved great success, the company will seize the industry in the next 5 years wave tide, the national market development strategy layout, do a solid industry leader.
+				</div>
+				<ul class="fgs_ul">
+					<li class="fgs_li">
+						<img src="__HIMG__/ny1.jpg"/>
+						<div class="fgs_li_c">
+							<span>Company vision</span><i>：Let the world have no ugly teeth</i>
+						</div>
+					</li>
+					<li class="fgs_li">
+						<img src="__HIMG__/ny2.jpg"/>
+						<div class="fgs_li_c">
+							<span>Company mission</span><i>：Dedicated to becoming the first comprehensive solution provider in the dental industry</i>
+						</div>
+					</li>
+					<li class="fgs_li">
+						<img src="__HIMG__/ny3.jpg"/>
+						<div class="fgs_li_c">
+							<span>Enterprise spirit</span><i>：Down-to-earth and steady innovation</i>
+						</div>
+					</li>
+				</ul>
+				<div class="fgs">
+					<include file="PublicE:left" />
+					<div class="fgs_r">
+						<div class="qgwl_img">
+							<div class="qgwl_imgl">
+								<img src="__HIMG__/ny15.jpg"/>
+							</div>
+							<div class="qgwl_imgl">
+								<img src="__HIMG__/ny16.jpg"/>
+							</div>
+						</div>
+						<div class="qgwl">
+							Global network information
+						</div>
+						<ul class="qgwl_ul">
+							<foreach name="network" item="v" >
+							<li class="qgwl_li">
+								<div class="qgwl_li_l">
+									{$v.company}
+								</div>
+								<div class="qgwl_li_r">
+									{$v.network}
+								</div>
+							</li>
+							</foreach>
+							
+						</ul>
+						<div class="ny_herf marbtm">
+							<div class="ny_herf_l">
+								<a href="#">Home</a
+								><a href="#">Previous page</a
+								><a href="#">next page</a
+								><a href="#">Shadowe</a
+								><span class="whidden">页次：1/1页</span><span>共12条记录</span><span class="whidden">15条每页</span>
+							</div>
+							<div class="ny_herf_r">
+								<form action="" method="post">
+									<input type="" name="" id="" value="" class="ny_inp" />
+									<input type="submit" value="转到"class="ny_sub" />
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		
+		
+		<include file="PublicE:footer" />
+		<script src="__HJS__/js.js" type="text/javascript" charset="utf-8"></script>
+		<script src="__HJS__/swiper.jquery.min.js" type="text/javascript"></script>
+		
+		<script>
+		    var swiper = new Swiper('.swiper-container1', {
+		        pagination: '.swiper-pagination1',
+		        nextButton: '.swiper-button-next',
+		        prevButton: '.swiper-button-prev',
+		        paginationClickable: true,
+		        spaceBetween: 0,
+		        centeredSlides: true,
+		        autoplay: 5000,
+		        autoplayDisableOnInteraction: false
+		    });
+		</script>
+	</body>
+</html>

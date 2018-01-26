@@ -1,0 +1,170 @@
+<div class="footer">
+			<div class="footer_c">
+				<div class="footer_l">
+					<ul class="footer_l_h">
+						<li class="footer_l_hli"><a href="__APP__/Index/index.html">首页</a></li>
+						<li class="footer_l_hli"><a href="__APP__/Cpzx/index.html">产品中心</a></li>
+						<li class="footer_l_hli"><a href="__APP__/Jjfa/index.html">解决方案</a></li>
+						<li class="footer_l_hli"><a href="__APP__/Mmtm/index.html">美鸣贴面</a></li>
+						<li class="footer_l_hli"><a href="__APP__/Khzq/index.html">客户专区</a></li>
+						<li class="footer_l_hli"><a href="__APP__/Xwzx/index.html">新闻中心</a></li>
+						<li class="footer_l_hli"><a href="__APP__/Qyzx/index.html">企业信息</a></li>
+					</ul>
+					<ul class="footer_l_c">
+						<li class="footer_l_cli">
+							<ul>
+								<li><a href="__APP__/Qyzx/index.html">公司简介</a></li>
+								<li><a href="__APP__/Mmtm/index.html">美鸣贴面</a></li>
+								<li><a href="__APP__/Ddcx/index.html">订单查询</a></li>
+								<li><a href="__APP__/Index/index.html">合作伙伴</a></li>
+							</ul>
+						</li>
+						<li class="footer_l_cli">
+							<ul>
+								<li><a href="__APP__/Cpzx/index.html">美鸣氧化锆系列</a></li>
+								<li><a href="__APP__/Cpzx/index.html">铸瓷全瓷牙</a></li>
+								<li><a href="__APP__/Cpzx/index.html">美鸣种植系列</a></li>
+								<li><a href="__APP__/Cpzx/index.html">美鸣精密</a></li>
+								<li><a href="__APP__/Cpzx/index.html">美鸣纯钛</a></li>
+							</ul>
+						</li>
+						<li class="footer_l_cli">
+							<ul>
+								<li><a href="__APP__/Jjfa/index.html">技术支持</a></li>
+								<li><a href="__APP__/Jjfa/index.html">店面营销</a></li>
+								<li><a href="__APP__/Jjfa/index.html">店面扩客</a></li>
+								<li><a href="__APP__/Jjfa/index.html">店面管理</a></li>
+								<li><a href="__APP__/Jjfa/index.html">连锁扩展</a></li>
+							</ul>
+						</li>
+						<li class="footer_l_cli">
+							<ul>
+								<li><a href="__APP__/Mmtm/index.html">贴面介绍</a></li>
+								<li><a href="__APP__/Mmtm/index.html">贴面优势</a></li>
+							</ul>
+						</li>
+						<li class="footer_l_cli">
+							<ul>
+								<li><a href="__APP__/Khzq/index.html">视频专区</a></li>
+								<li><a href="__APP__/Khzq/index.html">问题解答</a></li>
+							</ul>
+						</li>
+						<li class="footer_l_cli">
+							<ul>
+								<li><a href="__APP__/Xwzx/index.html">公司动态</a></li>
+								<li><a href="__APP__/Xwzx/index.html">相关资讯</a></li>
+								<li><a href="__APP__/Xwzx/index.html">其他动态</a></li>
+							</ul>
+						</li>
+						<li class="footer_l_cli">
+							<ul>
+								<li><a href="__APP__/Qyzx/index.html">公司介绍</a></li>
+								<li><a href="__APP__/Qyzx/index.html">关于我们</a></li>
+								<li><a href="__APP__/Qyzx/index.html">企业文化</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+				<div class="footer_r">
+					<div class="footer_r_h">
+						<div class="footer_r_hl">
+							<img src="__HIMG__/logo2.png"/>
+							电话：{$pc}
+							<br />地址：深圳市宝安西乡前进二路航城工业区富鑫林工业园D栋3楼
+						</div>
+						<div class="footer_r_hr">
+							<img src="__HIMG__/mm29.jpg"/>
+						</div>
+					</div>
+					<div class="footer_r_c">
+						<!-- <div class="footer_r_c1"></div> -->
+						<div id="zone" class="footer_r_c2"></div>
+						<div id="blog" class="footer_r_c3"></div>
+					</div>
+					<input type="hidden" id="content" value="{$content}">
+					<script type="text/javascript">
+					//分享到微博
+						$('#blog').click(function(){
+							var content=$("#content").val();
+			                window.sharetitle = content;//标题
+			                window.shareUrl = '__IMG__<%$info.img.0.url%>';//缩略图
+			                share();
+			            });
+			            function share(){
+			                //d指的是window
+			                (function(s,d,e){try{}catch(e){}var f='http://v.t.sina.com.cn/share/share.php?',u=d.location.href,p=['url=',e(u),'&title=',e(window.sharetitle),'&appkey=2924220432','&pic=',e(window.shareUrl)].join('');function a(){if(!window.open([f,p].join(''),'mb',['toolbar=0,status=0,resizable=1,width=620,height=450,left=',(s.width-620)/2,',top=',(s.height-450)/2].join('')))u.href=[f,p].join('');};if(/Firefox/.test(navigator.userAgent)){setTimeout(a,0)}else{a()}})(screen,document,encodeURIComponent);
+			            }
+					</script>
+					
+					<script type="text/javascript">
+					//分享到QQ空间
+						$("#zone").click(function(){
+							var content=$("#content").val();
+			                var p = {
+			                    url:location.href,
+			                    showcount:'1',/*是否显示分享总数,显示：'1'，不显示：'0' */
+			                    desc:'',/*默认分享理由(可选)*/
+			                    summary:content,/*分享摘要(可选)*/
+			                    title:'美鸣义齿',/*分享标题(可选)*/
+			                    site:'美鸣义齿',/*分享来源 如：腾讯网(可选)*/
+			                    pics:'__IMG__<%$info.img.0.url%>', /*分享图片的路径(可选)*/
+			                    style:'203',
+			                    width:98,
+			                    height:22
+			                };
+			                var s = [];
+			                for(var i in p){
+			                    s.push(i + '=' + encodeURIComponent(p[i]||''));
+			                }
+			                window.open("http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?"+s.join('&'));
+			            });
+					</script>
+					<div class="footer_r_btm">
+						鲁ICP备13071670-2 号<br />
+Copyright &copy; 2017深圳美鸣科技有限公司
+					</div>
+				</div>
+			</div>
+			<div class="footer_bottom">
+				Copyright © 2017美鸣科有限公司<br />
+				鲁ICP备13071670-2 号
+			</div>
+		</div>
+		<input type="hidden" id="qq" value="{$qq}">
+		<script type="text/javascript">
+			function chatQQ(){  
+				var qq=$("#qq").val();
+			    /*1234567对应的就是需要聊天的客服*/  
+			    window.location.href = "mqqwpa://im/chat?chat_type=wpa&uin="+qq+"&version=1&src_type=web&web_src=oicqzone.com";  
+			}  
+		</script>
+		<div class="bottom">
+			<div class="bottom_l">
+				<div class="bottom_l_img">
+					<a href="tel:{$sj}"><img src="__HIMG__/wb11.png"/></a>
+				</div>
+				<div class="bottom_l_c">
+					<a href="tel:{$sj}">电话咨询</a>
+				</div>
+			</div>
+			<div class="bottom_l">
+				<div class="bottom_l_img1">
+					<a href="#"><img src="__HIMG__/wb12.png"/></a>
+				</div>
+				<div class="bottom_l_c">
+					<a href="#">在线留言</a>
+				</div>
+			</div>
+			<div class="bottom_l">
+				<div class="bottom_l_img2">
+					<a href="javascript:void(0);" onclick="chatQQ()"><img src="__HIMG__/wb13.png"/></a>
+				</div>
+				<div class="bottom_l_c">
+					<a href="javascript:void(0);" onclick="chatQQ()">QQ客服</a>
+				</div>
+			</div>
+		</div>
+		<div class="gotop"></div>
+
+
+		

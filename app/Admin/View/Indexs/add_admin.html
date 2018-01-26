@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Matrix Admin</title>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="__ACSS__/bootstrap.min.css" />
+<link rel="stylesheet" href="__ACSS__/bootstrap-responsive.min.css" />
+<link rel="stylesheet" href="__ACSS__/uniform.css" />
+<link rel="stylesheet" href="__ACSS__/select2.css" />
+<link rel="stylesheet" href="__ACSS__/matrix-style.css" />
+<link rel="stylesheet" href="__ACSS__/matrix-media.css" />
+<link href="__APUBLIC__/font-awesome/css/font-awesome.css" rel="stylesheet" />
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,800' rel='stylesheet' type='text/css'>
+</head>
+<body>
+
+<include file="Public:head" />
+<include file="Public:left" />
+<div id="content">
+  <div id="content-header">
+    <div id="breadcrumb"> <a href="index.html" title="Go to Home" class="tip-bottom"><i class="icon-home"></i> Home</a> <a href="#">Form elements</a> <a href="#" class="current">Validation</a> </div>
+    <h1>Form validation</h1>
+  </div>
+  <div class="container-fluid"><hr>
+    <div class="row-fluid"> 
+      <div class="row-fluid">
+        <div class="span12">
+          <div class="widget-box">
+            <div class="widget-title"> <span class="icon"> <i class="icon-info-sign"></i> </span>
+              <h5>Security validation</h5>
+            </div>
+            <div class="widget-content nopadding">
+              <form class="form-horizontal" method="post" action="__APP__/Indexs/add3" name="password_validate" id="password_validate" novalidate="novalidate">
+                <div class="control-group">
+                  <label class="control-label">账号</label>
+                  <div class="controls">
+                    <input type="text" name="admin_name" id="admin_name" />
+                  </div>
+                </div>
+                <div class="control-group">
+                  <label class="control-label">密码</label>
+                  <div class="controls">
+                    <input type="password" name="password" id="password" />
+                  </div>
+                </div>
+
+                <script type="text/javascript">
+                  function checkFile(){
+                    var admin_name=$("#admin_name").val();
+                    var password=$("#password").val();
+                    if(admin_name==""){
+                      alert("请填写账号");
+                      return false;
+                    }else if(password==""){
+                      alert("请填写密码");
+                      return false;
+                    }
+                  }
+                </script>
+                <div class="form-actions">
+                  <input type="submit" onclick="return checkFile()" value="添加" class="btn btn-success">
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--Footer-part-->
+<div class="row-fluid">
+  <div id="footer" class="span12"> 2013 &copy; Matrix Admin. Brought to you by <a href="http://themedesigner.in/">Themedesigner.in</a> </div>
+</div>
+<!--end-Footer-part-->
+<script src="__AJS__/jquery.min.js"></script> 
+<script src="__AJS__/jquery.ui.custom.js"></script> 
+<script src="__AJS__/bootstrap.min.js"></script> 
+<script src="__AJS__/jquery.uniform.js"></script> 
+<script src="__AJS__/select2.min.js"></script> 
+<script src="__AJS__/jquery.validate.js"></script> 
+<script src="__AJS__/matrix.js"></script> 
+<script src="__AJS__/matrix.form_validation.js"></script>
+</body>
+</html>

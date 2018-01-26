@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<link rel="stylesheet" href="__HCSS__/swiper.min.css">
+		<link rel="stylesheet" type="text/css" href="__HCSS__/css.css"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+		<script src="__HJS__/jquery-1.8.3.min.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<include file="Public:head" />
+		<div class="ny_banner">
+			<img src="__PUBLIC__/upload/{$banner.banner_img}"/>
+		</div>
+		<div class="ny_con">
+			<div class="cpny_bthd">
+				<span>公司简介 </span>
+			</div>
+			<div class="ny_c">
+				<div class="ny_c_h">
+					<span>公司介绍 </span><i>/ Veneer</i>
+				</div>
+				<div class="ny_c_c">
+					&emsp;&emsp;深圳美鸣齿科器械有限公司是行业内领先的义齿供应商，专注于全瓷牙领域，坚持稳健经营、持续创新、开放合作，为门诊提供优质的牙齿和高性价比的解决方案。美鸣公司成立于2005
+年，总部设在深圳，现已在山东、山西、内蒙、湖南、四川、陕西、深圳成立分公司。目前，美鸣公司已经成长为北方规模最大的高端义齿生产企业，配备国际一流的义齿加工设备。公司旗
+下拥有多个高端义齿品牌，其中“美鸣”、“洛诗”已是业内知名品牌。先进成熟的营销模式取得了巨大成功，公司未来5年将抓住行业风口浪潮，进行全国市场开发的战略布局，做坚实的行
+业引领者。
+				</div>
+				<ul class="fgs_ul">
+					<li class="fgs_li">
+						<img src="__HIMG__/ny1.jpg"/>
+						<div class="fgs_li_c">
+							<span>公司愿景</span><i>：让天下没有难看的牙齿</i>
+						</div>
+					</li>
+					<li class="fgs_li">
+						<img src="__HIMG__/ny2.jpg"/>
+						<div class="fgs_li_c">
+							<span>公司使命</span><i>：致力于成为口腔行业一流的综合解决方案服务商 </i>
+						</div>
+					</li>
+					<li class="fgs_li">
+						<img src="__HIMG__/ny3.jpg"/>
+						<div class="fgs_li_c">
+							<span>企业精神</span><i>：脚踏实地 稳健创新</i>
+						</div>
+					</li>
+				</ul>
+				<div class="fgs">
+					<include file="Public:left" />
+					<div class="fgs_r">
+						<div class="qgwl_img">
+							<div class="qgwl_imgl">
+								<img src="__HIMG__/ny15.jpg"/>
+							</div>
+							<div class="qgwl_imgl">
+								<img src="__HIMG__/ny16.jpg"/>
+							</div>
+						</div>
+						<div class="qgwl">
+							全球网络信息
+						</div>
+						<ul class="qgwl_ul">
+							<foreach name="network" item="v" >
+							<li class="qgwl_li">
+								<div class="qgwl_li_l">
+									{$v.company}
+								</div>
+								<div class="qgwl_li_r">
+									{$v.network}
+								</div>
+							</li>
+							</foreach>
+							
+						</ul>
+						<div class="ny_herf marbtm">
+							<div class="ny_herf_l">
+								<a href="#">首页</a
+								><a href="#">上一页</a
+								><a href="#">下一页</a
+								><a href="#">尾页</a
+								><span class="whidden">页次：1/1页</span><span>共12条记录</span><span class="whidden">15条每页</span>
+							</div>
+							<div class="ny_herf_r">
+								<form action="" method="post">
+									<input type="" name="" id="" value="" class="ny_inp" />
+									<input type="submit" value="转到"class="ny_sub" />
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		
+		
+		<include file="Public:footer" />
+		<script src="__HJS__/js.js" type="text/javascript" charset="utf-8"></script>
+		<script src="__HJS__/swiper.jquery.min.js" type="text/javascript"></script>
+		
+		<script>
+		    var swiper = new Swiper('.swiper-container1', {
+		        pagination: '.swiper-pagination1',
+		        nextButton: '.swiper-button-next',
+		        prevButton: '.swiper-button-prev',
+		        paginationClickable: true,
+		        spaceBetween: 0,
+		        centeredSlides: true,
+		        autoplay: 5000,
+		        autoplayDisableOnInteraction: false
+		    });
+		</script>
+	</body>
+</html>

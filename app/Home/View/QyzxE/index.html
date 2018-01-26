@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<link rel="stylesheet" href="__HCSS__/swiper.min.css">
+		<link rel="stylesheet" type="text/css" href="__HCSS__/css.css"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+		<script src="__HJS__/jquery-1.8.3.min.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<include file="PublicE:head" />
+		<div class="ny_banner">
+			<img src="__PUBLIC__/upload/{$banner.banner_img}"/>
+		</div>
+		<div class="ny_con">
+			<div class="cpny_bthd">
+				<span>VENEER </span>
+			</div>
+			<div class="ny_c">
+				<div class="ny_c_h">
+					<span>VENEER </span><i>/ Veneer</i>
+				</div>
+				<div class="ny_c_c">
+					&emsp;&emsp;Shenzhen Meiming Dental Equipment Co. Ltd is a leading supplier of denture, focusing on the ciya field, adhere to sound management and continuous innovation, openness and cooperation, providing high-quality teeth and cost-effective solution for outpatient. Established in 2005, the company is headquartered in Shenzhen and has set up branch offices in Shandong, Shanxi, Inner Mongolia, Hunan, Sichuan, Shaanxi and Shenzhen. At present, the company has grown into the largest high-end denture manufacturer in the north and is equipped with an international denture processing equipment. The company has a number of high-end denture brands, including "beauty Ming" and "Luo poetry" has been a well-known brand in the industry. Advanced and sophisticated marketing model has achieved great success, the company will seize the industry in the next 5 years wave tide, the national market development strategy layout, do a solid industry leader.
+				</div>
+				<ul class="fgs_ul">
+					<li class="fgs_li">
+						<img src="__HIMG__/ny1.jpg"/>
+						<div class="fgs_li_c">
+							<span>Company vision</span><i>：Let the world have no ugly teeth</i>
+						</div>
+					</li>
+					<li class="fgs_li">
+						<img src="__HIMG__/ny2.jpg"/>
+						<div class="fgs_li_c">
+							<span>Company mission</span><i>：Dedicated to becoming the first comprehensive solution provider in the dental industry</i>
+						</div>
+					</li>
+					<li class="fgs_li">
+						<img src="__HIMG__/ny3.jpg"/>
+						<div class="fgs_li_c">
+							<span>Enterprise spirit</span><i>：Down-to-earth and steady innovation</i>
+						</div>
+					</li>
+				</ul>
+				<div class="fgs">
+
+				<include file="PublicE:left" />
+				
+					<div class="fgs_r">
+						<div class="lx_h">
+							Contact us
+						</div>
+						<div class="lx_hc">
+							Tell us what you want, and we are trying to keep doing everything we can to provide high quality service to our customers
+						</div>
+						<ul class="lx_ul">
+							<li class="lx_li">
+								<div class="lx_li_h"></div>
+								<div>
+									Landline：0755-27695552
+								</div>
+							</li>
+							<li class="lx_li">
+								<div class="lx_li_h1"></div>
+								<div>
+									Address：Shenzhen City, Baoan Xixiang forward two Fuxin town industrial zone air Lin Industrial Park D building 3 floor
+								</div>
+							</li>
+							<li class="lx_li">
+								<div class="lx_li_h2"></div>
+								<div>
+									mailbox：www.765618.com
+								</div>
+							</li>
+						</ul>
+						<!--百度地图API start-->
+						<script type="text/javascript" src="http://api.map.baidu.com/getscript?v=2.0&ak=pS9g3rC04mgpczklPjFirfm5U7UQQZGP&services=&t=20170703123905"></script>
+						<script type="text/javascript" src="http://api.map.baidu.com/library/SearchInfoWindow/1.5/src/SearchInfoWindow_min.js"></script>
+						<link rel="stylesheet" href="http://api.map.baidu.com/library/SearchInfoWindow/1.5/src/SearchInfoWindow_min.css" />
+						<div id="allmap"></div>
+						<script src="__HJS__/baidu.js" type="text/javascript" charset="utf-8"></script>
+						<!---百度地图API end-->
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="lyxx">
+			<div class="lyxx_con">
+				<div class="lyxx_h">
+					Post your message：
+				</div>
+
+				<form action="__APP__/QyzxE/message" method="post" class="lx_form">
+					<div class="lx_form_c">
+						<div class="lx_form_cc">
+							<label for="">Name：</label>
+							<input type="text" name="name" id="name" value="" />
+						</div>
+						<div class="lx_form_cc">
+							<label for="">Email:</label>
+							<input type="text" name="email" id="email" value="" />
+						</div>
+						<div class="lx_form_cc">
+							<label for="">phone:</label>
+							<input type="text" name="tel" id="tel" value="" />
+						</div>
+					</div>
+					<div class="lx_form_c">
+						<div class="lx_form_cc1">
+							<label for="">Content:</label>
+							<textarea name="content" id="contents" rows="" cols="" class="lx_tea" placeholder="The message needs to be reviewed and shown"></textarea>
+						</div>
+					</div>
+
+					<script type="text/javascript">
+		              function checkFile(){
+		              	var reg = /^([a-zA-Z0-9_-])+@([a-zA-Z0-9_-])+(.[a-zA-Z0-9_-])+/;
+		                var name=$("#name").val();
+		                var email=$("#email").val();
+		                var tel=$("#tel").val();
+		                var contents=$("#contents").val();
+		                if(name==""){
+		                  alert("Pls fill your name in");
+		                  return false;
+		                }else if(email==""){
+		                  alert("Please add email");
+		                  return false;
+		                }else if(!reg.test(email)){
+	                      alert("Email format error");
+	                      return false;
+	                    }else if(tel==""){
+		                  alert("Please add contact information");
+		                  return false;
+		                }else if(contents==""){
+		                  alert("Please add content");
+		                  return false;
+		                }
+		              }
+		            </script>
+						<input type="submit" onclick="return checkFile()" value="Submit" class="sub" />
+				</form>
+
+			</div>
+		</div>
+		
+		<include file="PublicE:footer" />
+		<script src="__HJS__/js.js" type="text/javascript" charset="utf-8"></script>
+		<script src="__HJS__/swiper.jquery.min.js" type="text/javascript"></script>
+		
+		<script>
+		    var swiper = new Swiper('.swiper-container1', {
+		        pagination: '.swiper-pagination1',
+		        nextButton: '.swiper-button-next',
+		        prevButton: '.swiper-button-prev',
+		        paginationClickable: true,
+		        spaceBetween: 0,
+		        centeredSlides: true,
+		        autoplay: 5000,
+		        autoplayDisableOnInteraction: false
+		    });
+		</script>
+	</body>
+</html>

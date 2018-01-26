@@ -1,0 +1,2407 @@
+[ 2017-09-28T21:39:41+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.016001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.014001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014001s ]
+SQL: SHOW COLUMNS FROM `mmyc_banner` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `mmyc_banner` WHERE ( type=1 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `mmyc_xl` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mmyc_xl` WHERE ( type=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_xl` WHERE ( type=2 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_xl` WHERE ( type=3 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `mmyc_xl` WHERE ( type=4 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_xl` WHERE ( type=5 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mmyc_news` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `mmyc_news` ORDER BY release_time desc LIMIT 0,4   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.061004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.061004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.031002s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.031002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015000s ]
+
+[ 2017-09-28T21:39:49+08:00 ] 127.0.0.1 /index.php/Khzq/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mmyc_banner` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `mmyc_banner` WHERE ( type=5 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mmyc_video` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `mmyc_video` ORDER BY time desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-28T21:39:53+08:00 ] 127.0.0.1 /index.php/Jjfa/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mmyc_banner` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `mmyc_banner` WHERE ( type=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mmyc_fangan` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `mmyc_fangan`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-28T21:39:59+08:00 ] 127.0.0.1 /index.php/IndexE/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mmyc_banner` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mmyc_banner` WHERE ( type=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mmyc_xl` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mmyc_xl` WHERE ( type=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `mmyc_xl` WHERE ( type=2 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_xl` WHERE ( type=3 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_xl` WHERE ( type=4 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_xl` WHERE ( type=5 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `mmyc_news` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mmyc_news` ORDER BY release_time desc LIMIT 0,4   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-28T21:40:01+08:00 ] 127.0.0.1 /index.php/LoginE/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-28T21:40:04+08:00 ] 127.0.0.1 /index.php/RegE/index1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-28T21:40:04+08:00 ] 127.0.0.1 /index.php/RegE/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-28T21:40:12+08:00 ] 127.0.0.1 /index.php/KhzqE/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mmyc_banner` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mmyc_banner` WHERE ( type=5 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mmyc_video` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mmyc_video` ORDER BY time desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-28T21:40:17+08:00 ] 127.0.0.1 /index.php/QyzxE/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mmyc_banner` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mmyc_banner` WHERE ( type=7 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.066004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-28T21:43:34+08:00 ] 127.0.0.1 /index.php/QyzxE/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mmyc_banner` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `mmyc_banner` WHERE ( type=7 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-28T21:46:15+08:00 ] 127.0.0.1 /index.php/JjfaE/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mmyc_banner` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `mmyc_banner` WHERE ( type=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mmyc_fangan` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `mmyc_fangan`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-28T21:46:16+08:00 ] 127.0.0.1 /index.php/JjfaE/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mmyc_banner` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mmyc_banner` WHERE ( type=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mmyc_fangan` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mmyc_fangan`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-28T22:10:04+08:00 ] 127.0.0.1 /index.php/JjfaE/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mmyc_banner` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `mmyc_banner` WHERE ( type=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mmyc_fangan` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `mmyc_fangan`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: pc G:\web\mmyc\app\Runtime\Cache\Home\4ccd8708d668822863a3424ff456c000.php 第 161 行.
+NOTIC: [8] Undefined variable: shouji G:\web\mmyc\app\Runtime\Cache\Home\4ccd8708d668822863a3424ff456c000.php 第 187 行.
+NOTIC: [8] Undefined variable: shouji G:\web\mmyc\app\Runtime\Cache\Home\4ccd8708d668822863a3424ff456c000.php 第 190 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-28T22:16:54+08:00 ] 127.0.0.1 /index.php/JjfaE/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mmyc_banner` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `mmyc_banner` WHERE ( type=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mmyc_fangan` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `mmyc_fangan`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: pc G:\web\mmyc\app\Runtime\Cache\Home\4ccd8708d668822863a3424ff456c000.php 第 161 行.
+NOTIC: [8] Undefined variable: j G:\web\mmyc\app\Runtime\Cache\Home\4ccd8708d668822863a3424ff456c000.php 第 187 行.
+NOTIC: [8] Undefined variable: j G:\web\mmyc\app\Runtime\Cache\Home\4ccd8708d668822863a3424ff456c000.php 第 190 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-28T22:16:56+08:00 ] 127.0.0.1 /index.php/JjfaE/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mmyc_banner` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `mmyc_banner` WHERE ( type=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mmyc_fangan` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mmyc_fangan`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: pc G:\web\mmyc\app\Runtime\Cache\Home\4ccd8708d668822863a3424ff456c000.php 第 161 行.
+NOTIC: [8] Undefined variable: j G:\web\mmyc\app\Runtime\Cache\Home\4ccd8708d668822863a3424ff456c000.php 第 187 行.
+NOTIC: [8] Undefined variable: j G:\web\mmyc\app\Runtime\Cache\Home\4ccd8708d668822863a3424ff456c000.php 第 190 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-28T22:16:57+08:00 ] 127.0.0.1 /index.php/JjfaE/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `mmyc_banner` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mmyc_banner` WHERE ( type=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mmyc_fangan` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `mmyc_fangan`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: pc G:\web\mmyc\app\Runtime\Cache\Home\4ccd8708d668822863a3424ff456c000.php 第 161 行.
+NOTIC: [8] Undefined variable: j G:\web\mmyc\app\Runtime\Cache\Home\4ccd8708d668822863a3424ff456c000.php 第 187 行.
+NOTIC: [8] Undefined variable: j G:\web\mmyc\app\Runtime\Cache\Home\4ccd8708d668822863a3424ff456c000.php 第 190 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-28T22:16:57+08:00 ] 127.0.0.1 /index.php/JjfaE/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mmyc_banner` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `mmyc_banner` WHERE ( type=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mmyc_fangan` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `mmyc_fangan`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: pc G:\web\mmyc\app\Runtime\Cache\Home\4ccd8708d668822863a3424ff456c000.php 第 161 行.
+NOTIC: [8] Undefined variable: j G:\web\mmyc\app\Runtime\Cache\Home\4ccd8708d668822863a3424ff456c000.php 第 187 行.
+NOTIC: [8] Undefined variable: j G:\web\mmyc\app\Runtime\Cache\Home\4ccd8708d668822863a3424ff456c000.php 第 190 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-28T22:16:57+08:00 ] 127.0.0.1 /index.php/JjfaE/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mmyc_banner` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `mmyc_banner` WHERE ( type=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mmyc_fangan` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mmyc_fangan`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: pc G:\web\mmyc\app\Runtime\Cache\Home\4ccd8708d668822863a3424ff456c000.php 第 161 行.
+NOTIC: [8] Undefined variable: j G:\web\mmyc\app\Runtime\Cache\Home\4ccd8708d668822863a3424ff456c000.php 第 187 行.
+NOTIC: [8] Undefined variable: j G:\web\mmyc\app\Runtime\Cache\Home\4ccd8708d668822863a3424ff456c000.php 第 190 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-28T22:16:58+08:00 ] 127.0.0.1 /index.php/JjfaE/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mmyc_banner` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `mmyc_banner` WHERE ( type=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mmyc_fangan` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mmyc_fangan`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: pc G:\web\mmyc\app\Runtime\Cache\Home\4ccd8708d668822863a3424ff456c000.php 第 161 行.
+NOTIC: [8] Undefined variable: j G:\web\mmyc\app\Runtime\Cache\Home\4ccd8708d668822863a3424ff456c000.php 第 187 行.
+NOTIC: [8] Undefined variable: j G:\web\mmyc\app\Runtime\Cache\Home\4ccd8708d668822863a3424ff456c000.php 第 190 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-28T22:16:58+08:00 ] 127.0.0.1 /index.php/JjfaE/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mmyc_banner` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `mmyc_banner` WHERE ( type=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mmyc_fangan` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `mmyc_fangan`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: pc G:\web\mmyc\app\Runtime\Cache\Home\4ccd8708d668822863a3424ff456c000.php 第 161 行.
+NOTIC: [8] Undefined variable: j G:\web\mmyc\app\Runtime\Cache\Home\4ccd8708d668822863a3424ff456c000.php 第 187 行.
+NOTIC: [8] Undefined variable: j G:\web\mmyc\app\Runtime\Cache\Home\4ccd8708d668822863a3424ff456c000.php 第 190 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-28T22:18:07+08:00 ] 127.0.0.1 /index.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mmyc_banner` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mmyc_banner` WHERE ( type=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mmyc_xl` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `mmyc_xl` WHERE ( type=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_xl` WHERE ( type=2 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_xl` WHERE ( type=3 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `mmyc_xl` WHERE ( type=4 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_xl` WHERE ( type=5 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mmyc_news` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `mmyc_news` ORDER BY release_time desc LIMIT 0,4   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: pc G:\web\mmyc\app\Runtime\Cache\Home\7d1be2da70a3ea5a748881a71cd7aefd.php 第 452 行.
+NOTIC: [8] Undefined variable: sj G:\web\mmyc\app\Runtime\Cache\Home\7d1be2da70a3ea5a748881a71cd7aefd.php 第 478 行.
+NOTIC: [8] Undefined variable: sj G:\web\mmyc\app\Runtime\Cache\Home\7d1be2da70a3ea5a748881a71cd7aefd.php 第 481 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-28T22:18:11+08:00 ] 127.0.0.1 /index.php/Cpzx/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mmyc_banner` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `mmyc_banner` WHERE ( type=2 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `mmyc_xl` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `mmyc_xl` WHERE ( type=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_xl` WHERE ( type=2 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `mmyc_xl` WHERE ( type=3 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_xl` WHERE ( type=4 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `mmyc_xl` WHERE ( type=5 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: pc G:\web\mmyc\app\Runtime\Cache\Home\9cf773815a4f212a6f8460b2f894c82d.php 第 201 行.
+NOTIC: [8] Undefined variable: sj G:\web\mmyc\app\Runtime\Cache\Home\9cf773815a4f212a6f8460b2f894c82d.php 第 227 行.
+NOTIC: [8] Undefined variable: sj G:\web\mmyc\app\Runtime\Cache\Home\9cf773815a4f212a6f8460b2f894c82d.php 第 230 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-28T22:19:02+08:00 ] 127.0.0.1 /index.php/Cpzx/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-28T22:19:23+08:00 ] 127.0.0.1 /index.php/Cpzx/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mmyc_phone` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mmyc_banner` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `mmyc_banner` WHERE ( type=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mmyc_xl` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mmyc_xl` WHERE ( type=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `mmyc_xl` WHERE ( type=2 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_xl` WHERE ( type=3 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_xl` WHERE ( type=4 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_xl` WHERE ( type=5 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-28T22:22:28+08:00 ] 127.0.0.1 /index.php/Cpzx/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mmyc_phone` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mmyc_banner` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mmyc_banner` WHERE ( type=2 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `mmyc_xl` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mmyc_xl` WHERE ( type=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_xl` WHERE ( type=2 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_xl` WHERE ( type=3 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_xl` WHERE ( type=4 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_xl` WHERE ( type=5 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-28T22:22:31+08:00 ] 127.0.0.1 /index.php/Ddcx/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mmyc_phone` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=2 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-28T22:22:34+08:00 ] 127.0.0.1 /index.php/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-28T22:22:39+08:00 ] 127.0.0.1 /index.php/Cpzx/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mmyc_phone` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mmyc_banner` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `mmyc_banner` WHERE ( type=2 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `mmyc_xl` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mmyc_xl` WHERE ( type=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `mmyc_xl` WHERE ( type=2 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_xl` WHERE ( type=3 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_xl` WHERE ( type=4 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `mmyc_xl` WHERE ( type=5 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-28T22:22:42+08:00 ] 127.0.0.1 /index.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mmyc_phone` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mmyc_banner` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mmyc_banner` WHERE ( type=1 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `mmyc_xl` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `mmyc_xl` WHERE ( type=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_xl` WHERE ( type=2 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `mmyc_xl` WHERE ( type=3 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_xl` WHERE ( type=4 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_xl` WHERE ( type=5 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `mmyc_news` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mmyc_news` ORDER BY release_time desc LIMIT 0,4   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-28T22:22:47+08:00 ] 127.0.0.1 /index.php/Qyzx/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mmyc_phone` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mmyc_banner` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mmyc_banner` WHERE ( type=7 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.068003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.068003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-28T22:22:51+08:00 ] 127.0.0.1 /index.php/Xwzx/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mmyc_phone` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=2 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `mmyc_banner` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mmyc_banner` WHERE ( type=6 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mmyc_news` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mmyc_news` ORDER BY release_time desc LIMIT 0,2   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `mmyc_news` ORDER BY release_time desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-28T22:23:10+08:00 ] 192.168.2.100 /index.php/Xwzx/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mmyc_phone` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mmyc_banner` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mmyc_banner` WHERE ( type=6 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `mmyc_news` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mmyc_news` ORDER BY release_time desc LIMIT 0,2   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `mmyc_news` ORDER BY release_time desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-28T22:27:23+08:00 ] 192.168.2.100 /index.php/Xwzx/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mmyc_phone` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mmyc_banner` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mmyc_banner` WHERE ( type=6 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mmyc_news` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mmyc_news` ORDER BY release_time desc LIMIT 0,2   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `mmyc_news` ORDER BY release_time desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-28T22:27:32+08:00 ] 192.168.2.100 /index.php/Xwzx/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mmyc_phone` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mmyc_banner` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mmyc_banner` WHERE ( type=6 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mmyc_news` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mmyc_news` ORDER BY release_time desc LIMIT 0,2   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `mmyc_news` ORDER BY release_time desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-28T22:28:05+08:00 ] 192.168.2.100 /index.php/Xwzx/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mmyc_phone` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mmyc_banner` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mmyc_banner` WHERE ( type=6 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `mmyc_news` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mmyc_news` ORDER BY release_time desc LIMIT 0,2   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `mmyc_news` ORDER BY release_time desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-28T22:28:35+08:00 ] 192.168.2.100 /index.php/Xwzx/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mmyc_phone` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mmyc_banner` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mmyc_banner` WHERE ( type=6 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `mmyc_news` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mmyc_news` ORDER BY release_time desc LIMIT 0,2   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `mmyc_news` ORDER BY release_time desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-28T22:29:45+08:00 ] 192.168.2.100 /index.php/Xwzx/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mmyc_phone` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mmyc_banner` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mmyc_banner` WHERE ( type=6 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `mmyc_news` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mmyc_news` ORDER BY release_time desc LIMIT 0,2   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_news` ORDER BY release_time desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-28T22:31:28+08:00 ] 192.168.2.100 /index.php/Xwzx/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mmyc_phone` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mmyc_banner` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mmyc_banner` WHERE ( type=6 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `mmyc_news` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mmyc_news` ORDER BY release_time desc LIMIT 0,2   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_news` ORDER BY release_time desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: qq G:\web\mmyc\app\Runtime\Cache\Home\53ffff7f46e0e7b77f27429d70afa611.php 第 218 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-28T22:32:43+08:00 ] 192.168.2.100 /index.php/Xwzx/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mmyc_phone` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mmyc_banner` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mmyc_banner` WHERE ( type=6 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mmyc_news` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mmyc_news` ORDER BY release_time desc LIMIT 0,2   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `mmyc_news` ORDER BY release_time desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-28T22:37:28+08:00 ] 127.0.0.1 /index.php/Xwzx/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mmyc_phone` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mmyc_banner` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `mmyc_banner` WHERE ( type=6 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `mmyc_news` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `mmyc_news` ORDER BY release_time desc LIMIT 0,2   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_news` ORDER BY release_time desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-28T22:37:29+08:00 ] 192.168.2.100 /index.php/Xwzx/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mmyc_phone` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mmyc_banner` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mmyc_banner` WHERE ( type=6 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `mmyc_news` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mmyc_news` ORDER BY release_time desc LIMIT 0,2   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_news` ORDER BY release_time desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-28T22:41:58+08:00 ] 192.168.2.100 /index.php/Xwzx/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mmyc_phone` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mmyc_banner` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `mmyc_banner` WHERE ( type=6 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mmyc_news` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mmyc_news` ORDER BY release_time desc LIMIT 0,2   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `mmyc_news` ORDER BY release_time desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-28T22:42:20+08:00 ] 192.168.2.100 /index.php/Xwzx/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mmyc_phone` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mmyc_banner` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mmyc_banner` WHERE ( type=6 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mmyc_news` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mmyc_news` ORDER BY release_time desc LIMIT 0,2   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `mmyc_news` ORDER BY release_time desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-28T22:42:52+08:00 ] 192.168.2.100 /index.php/Xwzx/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mmyc_phone` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mmyc_banner` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `mmyc_banner` WHERE ( type=6 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mmyc_news` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mmyc_news` ORDER BY release_time desc LIMIT 0,2   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `mmyc_news` ORDER BY release_time desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-28T22:43:00+08:00 ] 192.168.2.100 /index.php/Xwzx/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mmyc_phone` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mmyc_banner` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mmyc_banner` WHERE ( type=6 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `mmyc_news` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mmyc_news` ORDER BY release_time desc LIMIT 0,2   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_news` ORDER BY release_time desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-28T22:43:25+08:00 ] 192.168.2.100 /index.php/Xwzx/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mmyc_phone` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mmyc_banner` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `mmyc_banner` WHERE ( type=6 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mmyc_news` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mmyc_news` ORDER BY release_time desc LIMIT 0,2   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `mmyc_news` ORDER BY release_time desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-28T22:43:58+08:00 ] 192.168.2.100 /index.php/Xwzx/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mmyc_phone` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mmyc_banner` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `mmyc_banner` WHERE ( type=6 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mmyc_news` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `mmyc_news` ORDER BY release_time desc LIMIT 0,2   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_news` ORDER BY release_time desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-28T22:44:05+08:00 ] 192.168.2.100 /index.php/Xwzx/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mmyc_phone` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mmyc_banner` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `mmyc_banner` WHERE ( type=6 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mmyc_news` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mmyc_news` ORDER BY release_time desc LIMIT 0,2   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `mmyc_news` ORDER BY release_time desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-28T22:44:17+08:00 ] 192.168.2.100 /index.php/Xwzx/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mmyc_phone` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mmyc_banner` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `mmyc_banner` WHERE ( type=6 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mmyc_news` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `mmyc_news` ORDER BY release_time desc LIMIT 0,2   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_news` ORDER BY release_time desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-28T22:44:29+08:00 ] 192.168.2.100 /index.php/Xwzx/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mmyc_phone` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=3 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `mmyc_banner` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mmyc_banner` WHERE ( type=6 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mmyc_news` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mmyc_news` ORDER BY release_time desc LIMIT 0,2   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_news` ORDER BY release_time desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-09-28T22:44:41+08:00 ] 192.168.2.100 /index.php/Xwzx/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mmyc_phone` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=2 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mmyc_banner` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mmyc_banner` WHERE ( type=6 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `mmyc_news` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mmyc_news` ORDER BY release_time desc LIMIT 0,2   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_news` ORDER BY release_time desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-28T22:45:22+08:00 ] 192.168.2.100 /index.php/Xwzx/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mmyc_phone` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=2 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mmyc_banner` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mmyc_banner` WHERE ( type=6 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mmyc_news` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mmyc_news` ORDER BY release_time desc LIMIT 0,2   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_news` ORDER BY release_time desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-28T22:45:28+08:00 ] 192.168.2.100 /index.php/Xwzx/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mmyc_phone` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mmyc_banner` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `mmyc_banner` WHERE ( type=6 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mmyc_news` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mmyc_news` ORDER BY release_time desc LIMIT 0,2   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `mmyc_news` ORDER BY release_time desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-28T22:45:52+08:00 ] 192.168.2.100 /index.php/Xwzx/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `mmyc_phone` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mmyc_banner` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `mmyc_banner` WHERE ( type=6 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mmyc_news` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mmyc_news` ORDER BY release_time desc LIMIT 0,2   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `mmyc_news` ORDER BY release_time desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-28T22:46:17+08:00 ] 192.168.2.100 /index.php/Xwzx/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mmyc_phone` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mmyc_banner` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `mmyc_banner` WHERE ( type=6 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mmyc_news` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mmyc_news` ORDER BY release_time desc LIMIT 0,2   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_news` ORDER BY release_time desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-28T22:46:34+08:00 ] 192.168.2.100 /index.php/Xwzx/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mmyc_phone` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=3 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `mmyc_banner` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mmyc_banner` WHERE ( type=6 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mmyc_news` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `mmyc_news` ORDER BY release_time desc LIMIT 0,2   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_news` ORDER BY release_time desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-28T22:50:10+08:00 ] 127.0.0.1 /index.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mmyc_phone` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mmyc_banner` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `mmyc_banner` WHERE ( type=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mmyc_xl` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mmyc_xl` WHERE ( type=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_xl` WHERE ( type=2 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_xl` WHERE ( type=3 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_xl` WHERE ( type=4 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_xl` WHERE ( type=5 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mmyc_news` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `mmyc_news` ORDER BY release_time desc LIMIT 0,4   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-28T22:50:11+08:00 ] 127.0.0.1 /index.php/IndexE/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `mmyc_phone` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mmyc_banner` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mmyc_banner` WHERE ( type=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mmyc_xl` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mmyc_xl` WHERE ( type=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `mmyc_xl` WHERE ( type=2 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `mmyc_xl` WHERE ( type=3 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_xl` WHERE ( type=4 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_xl` WHERE ( type=5 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `mmyc_news` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mmyc_news` ORDER BY release_time desc LIMIT 0,4   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: j G:\web\mmyc\app\Runtime\Cache\Home\8467c14d9da6d243ea0b98cf4e41c53e.php 第 488 行.
+NOTIC: [8] Undefined variable: j G:\web\mmyc\app\Runtime\Cache\Home\8467c14d9da6d243ea0b98cf4e41c53e.php 第 491 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-28T22:54:47+08:00 ] 127.0.0.1 /index.php/IndexE/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mmyc_phone` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mmyc_banner` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `mmyc_banner` WHERE ( type=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mmyc_xl` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mmyc_xl` WHERE ( type=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_xl` WHERE ( type=2 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_xl` WHERE ( type=3 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `mmyc_xl` WHERE ( type=4 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_xl` WHERE ( type=5 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mmyc_news` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `mmyc_news` ORDER BY release_time desc LIMIT 0,4   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: j G:\web\mmyc\app\Runtime\Cache\Home\8467c14d9da6d243ea0b98cf4e41c53e.php 第 488 行.
+NOTIC: [8] Undefined variable: j G:\web\mmyc\app\Runtime\Cache\Home\8467c14d9da6d243ea0b98cf4e41c53e.php 第 491 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-09-28T22:54:52+08:00 ] 127.0.0.1 /index.php/IndexE/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mmyc_phone` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=2 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mmyc_banner` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mmyc_banner` WHERE ( type=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mmyc_xl` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `mmyc_xl` WHERE ( type=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_xl` WHERE ( type=2 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_xl` WHERE ( type=3 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_xl` WHERE ( type=4 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_xl` WHERE ( type=5 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mmyc_news` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `mmyc_news` ORDER BY release_time desc LIMIT 0,4   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: j G:\web\mmyc\app\Runtime\Cache\Home\8467c14d9da6d243ea0b98cf4e41c53e.php 第 488 行.
+NOTIC: [8] Undefined variable: j G:\web\mmyc\app\Runtime\Cache\Home\8467c14d9da6d243ea0b98cf4e41c53e.php 第 491 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-28T22:54:53+08:00 ] 127.0.0.1 /index.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mmyc_phone` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mmyc_banner` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mmyc_banner` WHERE ( type=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mmyc_xl` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mmyc_xl` WHERE ( type=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_xl` WHERE ( type=2 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_xl` WHERE ( type=3 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_xl` WHERE ( type=4 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `mmyc_xl` WHERE ( type=5 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mmyc_news` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mmyc_news` ORDER BY release_time desc LIMIT 0,4   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-28T23:01:10+08:00 ] 127.0.0.1 /index.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mmyc_phone` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=3 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=4 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mmyc_banner` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mmyc_banner` WHERE ( type=1 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `mmyc_xl` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mmyc_xl` WHERE ( type=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_xl` WHERE ( type=2 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `mmyc_xl` WHERE ( type=3 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_xl` WHERE ( type=4 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_xl` WHERE ( type=5 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mmyc_news` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `mmyc_news` ORDER BY release_time desc LIMIT 0,4   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-28T23:02:41+08:00 ] 127.0.0.1 /index.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mmyc_phone` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=3 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=4 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mmyc_banner` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `mmyc_banner` WHERE ( type=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mmyc_xl` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `mmyc_xl` WHERE ( type=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_xl` WHERE ( type=2 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_xl` WHERE ( type=3 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_xl` WHERE ( type=4 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_xl` WHERE ( type=5 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `mmyc_news` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mmyc_news` ORDER BY release_time desc LIMIT 0,4   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-28T23:03:30+08:00 ] 127.0.0.1 /index.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mmyc_phone` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=3 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=4 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mmyc_banner` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `mmyc_banner` WHERE ( type=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mmyc_xl` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `mmyc_xl` WHERE ( type=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `mmyc_xl` WHERE ( type=2 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_xl` WHERE ( type=3 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_xl` WHERE ( type=4 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_xl` WHERE ( type=5 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mmyc_news` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `mmyc_news` ORDER BY release_time desc LIMIT 0,4   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-28T23:07:06+08:00 ] 127.0.0.1 /index.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mmyc_phone` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=3 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=4 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mmyc_banner` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `mmyc_banner` WHERE ( type=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mmyc_xl` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `mmyc_xl` WHERE ( type=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_xl` WHERE ( type=2 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_xl` WHERE ( type=3 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_xl` WHERE ( type=4 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_xl` WHERE ( type=5 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mmyc_news` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `mmyc_news` ORDER BY release_time desc LIMIT 0,4   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-28T23:08:29+08:00 ] 127.0.0.1 /index.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mmyc_phone` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=4 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `mmyc_banner` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mmyc_banner` WHERE ( type=1 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `mmyc_xl` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mmyc_xl` WHERE ( type=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_xl` WHERE ( type=2 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_xl` WHERE ( type=3 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_xl` WHERE ( type=4 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_xl` WHERE ( type=5 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mmyc_news` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mmyc_news` ORDER BY release_time desc LIMIT 0,4   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-28T23:09:11+08:00 ] 127.0.0.1 /index.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mmyc_phone` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=4 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mmyc_banner` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mmyc_banner` WHERE ( type=1 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `mmyc_xl` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `mmyc_xl` WHERE ( type=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_xl` WHERE ( type=2 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_xl` WHERE ( type=3 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_xl` WHERE ( type=4 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_xl` WHERE ( type=5 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `mmyc_news` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `mmyc_news` ORDER BY release_time desc LIMIT 0,4   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-28T23:09:59+08:00 ] 127.0.0.1 /index.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mmyc_phone` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=4 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mmyc_banner` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mmyc_banner` WHERE ( type=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mmyc_xl` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mmyc_xl` WHERE ( type=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `mmyc_xl` WHERE ( type=2 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_xl` WHERE ( type=3 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_xl` WHERE ( type=4 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `mmyc_xl` WHERE ( type=5 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mmyc_news` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `mmyc_news` ORDER BY release_time desc LIMIT 0,4   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-28T23:10:02+08:00 ] 127.0.0.1 /index.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mmyc_phone` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=4 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mmyc_banner` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `mmyc_banner` WHERE ( type=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mmyc_xl` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mmyc_xl` WHERE ( type=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `mmyc_xl` WHERE ( type=2 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_xl` WHERE ( type=3 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_xl` WHERE ( type=4 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `mmyc_xl` WHERE ( type=5 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mmyc_news` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mmyc_news` ORDER BY release_time desc LIMIT 0,4   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-28T23:10:02+08:00 ] 127.0.0.1 /index.php/IndexE/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mmyc_phone` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=4 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mmyc_banner` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mmyc_banner` WHERE ( type=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mmyc_xl` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `mmyc_xl` WHERE ( type=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_xl` WHERE ( type=2 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `mmyc_xl` WHERE ( type=3 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_xl` WHERE ( type=4 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_xl` WHERE ( type=5 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mmyc_news` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `mmyc_news` ORDER BY release_time desc LIMIT 0,4   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: j G:\web\mmyc\app\Runtime\Cache\Home\8467c14d9da6d243ea0b98cf4e41c53e.php 第 528 行.
+NOTIC: [8] Undefined variable: j G:\web\mmyc\app\Runtime\Cache\Home\8467c14d9da6d243ea0b98cf4e41c53e.php 第 531 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-28T23:11:13+08:00 ] 127.0.0.1 /index.php/IndexE/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mmyc_phone` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=4 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `mmyc_banner` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `mmyc_banner` WHERE ( type=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mmyc_xl` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `mmyc_xl` WHERE ( type=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_xl` WHERE ( type=2 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_xl` WHERE ( type=3 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `mmyc_xl` WHERE ( type=4 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_xl` WHERE ( type=5 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mmyc_news` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `mmyc_news` ORDER BY release_time desc LIMIT 0,4   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: j G:\web\mmyc\app\Runtime\Cache\Home\8467c14d9da6d243ea0b98cf4e41c53e.php 第 528 行.
+NOTIC: [8] Undefined variable: j G:\web\mmyc\app\Runtime\Cache\Home\8467c14d9da6d243ea0b98cf4e41c53e.php 第 531 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-09-28T23:11:42+08:00 ] 127.0.0.1 /index.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mmyc_phone` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=4 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mmyc_banner` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mmyc_banner` WHERE ( type=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mmyc_xl` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `mmyc_xl` WHERE ( type=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_xl` WHERE ( type=2 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_xl` WHERE ( type=3 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_xl` WHERE ( type=4 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_xl` WHERE ( type=5 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mmyc_news` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `mmyc_news` ORDER BY release_time desc LIMIT 0,4   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-28T23:26:03+08:00 ] 127.0.0.1 /index.php/Qyzx/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mmyc_phone` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=4 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mmyc_banner` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `mmyc_banner` WHERE ( type=7 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-28T23:26:15+08:00 ] 127.0.0.1 /index.php/Mmtm/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mmyc_phone` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=4 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mmyc_banner` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mmyc_banner` WHERE ( type=4 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mmyc_tiyanimg` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `mmyc_tiyanimg`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.063003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.064003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-28T23:26:15+08:00 ] 127.0.0.1 /index.php/Jjfa/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mmyc_phone` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=4 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `mmyc_banner` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mmyc_banner` WHERE ( type=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mmyc_fangan` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mmyc_fangan`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-28T23:26:16+08:00 ] 127.0.0.1 /index.php/Cpzx/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mmyc_phone` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=2 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=4 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mmyc_banner` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `mmyc_banner` WHERE ( type=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mmyc_xl` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mmyc_xl` WHERE ( type=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `mmyc_xl` WHERE ( type=2 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_xl` WHERE ( type=3 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_xl` WHERE ( type=4 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `mmyc_xl` WHERE ( type=5 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-28T23:26:20+08:00 ] 127.0.0.1 /index.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mmyc_phone` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=4 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mmyc_banner` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mmyc_banner` WHERE ( type=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mmyc_xl` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mmyc_xl` WHERE ( type=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `mmyc_xl` WHERE ( type=2 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_xl` WHERE ( type=3 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `mmyc_xl` WHERE ( type=4 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_xl` WHERE ( type=5 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mmyc_news` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `mmyc_news` ORDER BY release_time desc LIMIT 0,4   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-28T23:26:30+08:00 ] 127.0.0.1 /index.php/Qyzx/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mmyc_phone` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=4 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `mmyc_banner` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mmyc_banner` WHERE ( type=7 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-28T23:30:19+08:00 ] 192.168.2.100 /index.php/Xwzx/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mmyc_phone` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=3 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `mmyc_share` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mmyc_share` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mmyc_banner` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mmyc_banner` WHERE ( type=6 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mmyc_news` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `mmyc_news` ORDER BY release_time desc LIMIT 0,2   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_news` ORDER BY release_time desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-28T23:30:28+08:00 ] 127.0.0.1 /index.php/Qyzx/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mmyc_phone` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=2 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mmyc_share` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mmyc_share` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mmyc_banner` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `mmyc_banner` WHERE ( type=7 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-28T23:30:54+08:00 ] 127.0.0.1 /index.php/Qyzx/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mmyc_phone` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=2 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mmyc_share` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mmyc_share` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mmyc_banner` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mmyc_banner` WHERE ( type=7 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-28T23:31:04+08:00 ] 127.0.0.1 /index.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mmyc_phone` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=2 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mmyc_share` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mmyc_share` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mmyc_banner` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `mmyc_banner` WHERE ( type=1 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `mmyc_xl` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mmyc_xl` WHERE ( type=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_xl` WHERE ( type=2 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `mmyc_xl` WHERE ( type=3 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_xl` WHERE ( type=4 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_xl` WHERE ( type=5 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mmyc_news` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mmyc_news` ORDER BY release_time desc LIMIT 0,4   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-28T23:31:05+08:00 ] 127.0.0.1 /index.php/IndexE/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mmyc_phone` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_phone` WHERE ( type=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mmyc_share` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mmyc_share` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `mmyc_banner` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mmyc_banner` WHERE ( type=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mmyc_xl` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mmyc_xl` WHERE ( type=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_xl` WHERE ( type=2 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_xl` WHERE ( type=3 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_xl` WHERE ( type=4 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mmyc_xl` WHERE ( type=5 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `mmyc_news` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mmyc_news` ORDER BY release_time desc LIMIT 0,4   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: j G:\web\mmyc\app\Runtime\Cache\Home\8467c14d9da6d243ea0b98cf4e41c53e.php 第 528 行.
+NOTIC: [8] Undefined variable: j G:\web\mmyc\app\Runtime\Cache\Home\8467c14d9da6d243ea0b98cf4e41c53e.php 第 531 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

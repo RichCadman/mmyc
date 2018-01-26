@@ -1,0 +1,171 @@
+<div class="footer">
+			<div class="footer_c">
+				<div class="footer_l">
+					<ul class="footer_l_h">
+						<li class="footer_l_hli"><a href="__APP__/IndexE/index.html">Home</a></li>
+						<li class="footer_l_hli"><a href="__APP__/CpzxE/index.html">Product Center</a></li>
+						<li class="footer_l_hli"><a href="__APP__/JjfaE/index.html">Solution</a></li>
+						<li class="footer_l_hli"><a href="__APP__/MmtmE/index.html">Veneer</a></li>
+						<li class="footer_l_hli"><a href="__APP__/KhzqE/index.html">Customer</a></li>
+						<li class="footer_l_hli"><a href="__APP__/XwzxE/index.html">News</a></li>
+						<li class="footer_l_hli"><a href="__APP__/QyzxE/index.html">Information</a></li>
+					</ul>
+					<ul class="footer_l_c">
+						<li class="footer_l_cli">
+							<ul>
+								<li><a href="__APP__/QyzxE/index.html">Company profile</a></li>
+								<li><a href="__APP__/MmtmE/index.html">Veneer</a></li>
+								<li><a href="__APP__/DdcxE/index.html">Order</a></li>
+								<li><a href="__APP__/IndexE/index.html">partners</a></li>
+							</ul>
+						</li>
+						<li class="footer_l_cli">
+							<ul>
+								<li><a href="__APP__/CpzxE/index.html">The zirconium oxide series</a></li>
+								<li><a href="__APP__/CpzxE/index.html">Sing glass ceramic series</a></li>
+								<li><a href="__APP__/CpzxE/index.html">Mei Ming planted series</a></li>
+								<li><a href="__APP__/CpzxE/index.html">Meiming Precision</a></li>
+								<li><a href="__APP__/CpzxE/index.html">Mei Ming pure titanium</a></li>
+							</ul>
+						</li>
+						<li class="footer_l_cli">
+							<ul>
+								<li><a href="__APP__/JjfaE/index.html">Technical</a></li>
+								<li><a href="__APP__/JjfaE/index.html">Marketing</a></li>
+								<li><a href="__APP__/JjfaE/index.html">Aspires</a></li>
+								<li><a href="__APP__/JjfaE/index.html">Administration</a></li>
+								<li><a href="__APP__/JjfaE/index.html">Chains</a></li>
+							</ul>
+						</li>
+						<li class="footer_l_cli">
+							<ul>
+								<li><a href="__APP__/MmtmE/index.html">Introduce</a></li>
+								<li><a href="__APP__/MmtmE/index.html">Advantage</a></li>
+							</ul>
+						</li>
+						<li class="footer_l_cli">
+							<ul>
+								<li><a href="__APP__/KhzqE/index.html">Video</a></li>
+								<li><a href="__APP__/KhzqE/index.html">Problem solution</a></li>
+							</ul>
+						</li>
+						<li class="footer_l_cli">
+							<ul>
+								<li><a href="__APP__/XwzxE/index.html">Dynamics</a></li>
+								<li><a href="__APP__/XwzxE/index.html">Relevant information</a></li>
+								<li><a href="__APP__/XwzxE/index.html">Other trends</a></li>
+							</ul>
+						</li>
+						<li class="footer_l_cli">
+							<ul>
+								<li><a href="__APP__/QyzxE/index.html">Company Introduction</a></li>
+								<li><a href="__APP__/QyzxE/index.html">About Us</a></li>
+								<li><a href="__APP__/QyzxE/index.html">Corporate Culture</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+				<div class="footer_r">
+					<div class="footer_r_h">
+						<div class="footer_r_hl">
+							<img src="__HIMG__/logo2.png"/>
+							Telephone：{$pc}
+							<br />Address：Shenzhen City, Baoan Xixiang forward two Fuxin town industrial zone air Lin Industrial Park D building 3 floor
+						</div>
+						<div class="footer_r_hr">
+							<img src="__HIMG__/mm29.jpg"/>
+						</div>
+					</div>
+					<div class="footer_r_c">
+						<!-- <div class="footer_r_c1"></div> -->
+						<div id="zone" class="footer_r_c2"></div>
+						<div id="blog" class="footer_r_c3"></div>
+					</div>
+					<input type="hidden" id="content" value="{$content}">
+					<script type="text/javascript">
+					//分享到微博
+						$('#blog').click(function(){
+							var content=$("#content").val();
+			                window.sharetitle = content;//标题
+			                window.shareUrl = '__IMG__<%$info.img.0.url%>';//缩略图
+			                share();
+			            });
+			            function share(){
+			                //d指的是window
+			                (function(s,d,e){try{}catch(e){}var f='http://v.t.sina.com.cn/share/share.php?',u=d.location.href,p=['url=',e(u),'&title=',e(window.sharetitle),'&appkey=2924220432','&pic=',e(window.shareUrl)].join('');function a(){if(!window.open([f,p].join(''),'mb',['toolbar=0,status=0,resizable=1,width=620,height=450,left=',(s.width-620)/2,',top=',(s.height-450)/2].join('')))u.href=[f,p].join('');};if(/Firefox/.test(navigator.userAgent)){setTimeout(a,0)}else{a()}})(screen,document,encodeURIComponent);
+			            }
+					</script>
+					
+					<script type="text/javascript">
+					//分享到QQ空间
+						$("#zone").click(function(){
+							var content=$("#content").val();
+			                var p = {
+			                    url:location.href,
+			                    showcount:'1',/*是否显示分享总数,显示：'1'，不显示：'0' */
+			                    desc:'',/*默认分享理由(可选)*/
+			                    summary:content,/*分享摘要(可选)*/
+			                    title:'美鸣义齿',/*分享标题(可选)*/
+			                    site:'美鸣义齿',/*分享来源 如：腾讯网(可选)*/
+			                    pics:'__IMG__<%$info.img.0.url%>', /*分享图片的路径(可选)*/
+			                    style:'203',
+			                    width:98,
+			                    height:22
+			                };
+			                var s = [];
+			                for(var i in p){
+			                    s.push(i + '=' + encodeURIComponent(p[i]||''));
+			                }
+			                window.open("http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?"+s.join('&'));
+			            });
+					</script>
+
+
+					<div class="footer_r_btm">
+						鲁ICP备13071670-2 号<br />
+Copyright &copy; MeiMing Technology Corporation
+					</div>
+				</div>
+			</div>
+			<div class="footer_bottom">
+				Copyright © 2017美鸣科有限公司<br />
+				鲁ICP备13071670-2 号
+			</div>
+		</div>
+
+		<input type="hidden" id="qq" value="{$qq}">
+		<script type="text/javascript">
+			function chatQQ(){  
+				var qq=$("#qq").val();
+			    /*1234567对应的就是需要聊天的客服*/  
+			    window.location.href = "mqqwpa://im/chat?chat_type=wpa&uin="+qq+"&version=1&src_type=web&web_src=oicqzone.com";  
+			}  
+		</script>
+
+		<div class="bottom">
+			<div class="bottom_l">
+				<div class="bottom_l_img">
+					<a href="tel:{$j}"><img src="__HIMG__/wb11.png"/></a>
+				</div>
+				<div class="bottom_l_c">
+					<a href="tel:{$j}">电话咨询</a>
+				</div>
+			</div>
+			<div class="bottom_l">
+				<div class="bottom_l_img1">
+					<a href="#"><img src="__HIMG__/wb12.png"/></a>
+				</div>
+				<div class="bottom_l_c">
+					<a href="#">在线留言</a>
+				</div>
+			</div>
+			<div class="bottom_l">
+				<div class="bottom_l_img2">
+					<a href="#"><img src="__HIMG__/wb13.png"/></a>
+				</div>
+				<div class="bottom_l_c">
+					<a href="#">QQ客服</a>
+				</div>
+			</div>
+		</div>
+		<div class="gotop"></div>
